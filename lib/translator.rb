@@ -53,5 +53,5 @@ def get_english_meaning(path, jpn_emoticon)
   else
     meaning_hash[jpn_emoticon]
   end
-  binding.pry
+  # binding.pry
 end

@@ -36,6 +36,8 @@ def get_japanese_emoticon(path, emoticon)
   emoticon_hash = lib[:get_emoticon]
   if !emoticon_hash.include?(emoticon)
     "Sorry, that emoticon was not found"
+  else
+    emoticon_hash[emoticon]
   end
   binding.pry
 end

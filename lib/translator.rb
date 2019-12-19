@@ -48,4 +48,5 @@ end
 def get_english_meaning(path, jpn_emoticon)
   lib = load_library(path)
   meaning_hash = lib[:get_meaning]
+  binding.pry
 end

@@ -45,6 +45,6 @@ def get_japanese_emoticon(path, emoticon)
   end
 end
 
-def get_english_meaning(path, emoticon)
+def get_english_meaning(path, jpn_emoticon)
   lib = load_library(path)
 end

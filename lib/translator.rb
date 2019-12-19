@@ -34,6 +34,7 @@ def get_japanese_emoticon(path, emoticon)
   # it returns the Japanese equivalent
   lib = load_library(path)
   emoticon_hash = lib[:get_emoticon]
+  binding.pry
 end
 
 def get_english_meaning

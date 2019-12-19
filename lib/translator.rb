@@ -51,7 +51,7 @@ def get_english_meaning(path, jpn_emoticon)
   if !meaning_hash.include?(jpn_emoticon)
     "Sorry, that emoticon was not found"
   else
-    
+    meaning_hash[jpn_emoticon]
   end
   binding.pry
 end

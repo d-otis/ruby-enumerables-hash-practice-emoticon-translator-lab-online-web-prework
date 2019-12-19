@@ -32,10 +32,8 @@ end
 def get_japanese_emoticon(path, emoticon)
   # when provided with an eng_emoticon
   # it returns the Japanese equivalent
-  emoticon_hash = load_library(path)
-  emoticon_hash.each do |k,v|
-    binding.pry
-  end
+  lib = load_library(path)
+  
 end
 
 def get_english_meaning

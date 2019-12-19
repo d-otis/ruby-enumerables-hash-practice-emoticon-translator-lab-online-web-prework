@@ -48,5 +48,10 @@ end
 def get_english_meaning(path, jpn_emoticon)
   lib = load_library(path)
   meaning_hash = lib[:get_meaning]
+  if !meaning_hash.include?(jpn_emoticon)
+    "Sorry, that emoticon was not found"
+  else
+    
+  end
   binding.pry
 end
